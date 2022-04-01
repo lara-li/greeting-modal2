@@ -1,0 +1,35 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+}
+img {
+  display: block;
+}
+input,
+textarea,
+label {
+  display: block;
+}
+input {
+  padding: 0.3em; /*it might be overwritten*/
+  font: inherit;
+}
+ul,
+ol {
+  list-style: none;
+}

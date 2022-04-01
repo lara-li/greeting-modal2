@@ -1,0 +1,37 @@
+.modal {
+  width:40%;
+  margin: auto;
+  display: grid;
+  background-color: rgb(238, 252, 244);
+  color: #222;
+  margin-top: 5rem;
+}
+.header {
+  padding: 1rem 0.8rem;
+  background-color: rgba(136, 221, 158, 0.801);
+  color: rgb(27, 22, 22);
+}
+.text {
+  padding:1rem;
+}
+.btnWrapper {
+  padding:0.2rem;
+  background-color: rgba(136, 221, 158, 0.801);
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  
+}
+.btnLight,
+.btnDark {
+  padding: 0.7rem 0.3rem;
+  border-radius: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: rgb(238, 252, 244);
+border:2px solid black;
+}
+.btnLight {
+background-color: transparent;
+border:2px solid rgb(238, 252, 244);
+}
